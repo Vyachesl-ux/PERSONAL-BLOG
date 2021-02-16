@@ -1590,10 +1590,28 @@ body.no-scroll {
     background: url(../img/contact_form.jpg) right top no-repeat;
   }
 }
+@media (max-width: 768px) {
+  .contact {
+    background: url(../img/contact_form.jpg) 335px no-repeat;
+    background-size: 60%;
+  }
+}
+@media (max-width: 767px) {
+  .contact {
+    background: url(../img/contact_form.jpg) top 0 right 0px no-repeat;
+    background-size: 45%;
+  }
+}
 @media (max-width: 565px) {
   .contact {
     background: url(../img/contact_form.jpg) top 30px center no-repeat;
     background-size: 70%;
+  }
+}
+@media (max-height: 320px) {
+  .contact {
+    background: url(../img/contact_form.jpg) bottom 70px right 0px no-repeat;
+    background-size: 45%;
   }
 }
 .contact .contact__left {
@@ -1612,6 +1630,11 @@ body.no-scroll {
     width: 52%;
     padding: 0.5rem 1rem 0;
     line-height: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .contact .contact__left {
+    width: 45%;
   }
 }
 @media (max-width: 565px) {
