@@ -1587,12 +1587,12 @@ body.no-scroll {
 @media (max-width: 767px) {
   .contact {
     flex-wrap: wrap;
-    background: url(../../img/contact_form.jpg) right top no-repeat;
+    background: url(../img/contact_form.jpg) right top no-repeat;
   }
 }
 @media (max-width: 565px) {
   .contact {
-    background: url(../../img/contact_form.jpg) top 30px center no-repeat;
+    background: url(../img/contact_form.jpg) top 30px center no-repeat;
     background-size: 70%;
   }
 }
