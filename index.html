@@ -23,14 +23,14 @@
                             <div class="user__prof">Frontend developer</div>
                         </div>
                     </div>
-                    <nav class="nav"> <a class="nav__link" href="#">work</a> <a class="nav__link" href="#about_me">about me</a> <a class="nav__link" href="#">blog</a> <a class="nav__link" href="#" data-modal="#modal__contact">contact</a> <a class="nav__link" href="#" data-modal="#modal_hire_me">hire me</a> </nav>
+                    <nav class="nav"> <a class="nav__link" href="#">work</a> <a class="nav__link" href="#about_me">about me</a> <a class="nav__link" href="#blog">blog</a> <a class="nav__link" href="#" data-modal="#modal__contact">contact</a> <a class="nav__link" href="#" data-modal="#modal_hire_me">hire me</a> </nav>
                     <div class="hamburger-menu">
                         <input type="checkbox" id="menu__toggle">
                         <label for="menu__toggle" class="menu__btn"><span></span></label>
                         <ul class="menu__box">
                             <li><a href="#" class="menu__item">work</a></li>
                             <li><a href="#about_me" class="menu__item">about me</a></li>
-                            <li><a href="#" class="menu__item">blog</a></li>
+                            <li><a href="#blog" class="menu__item">blog</a></li>
                             <li><a href="#" class="menu__item" data-modal="#modal__contact">contact</a></li>
                             <li><a href="#" class="menu__item" data-modal="#modal_hire_me">hire me</a></li>
                         </ul>
@@ -171,7 +171,7 @@
                     <div class="about__description">
                         <h2 class="about__title">about me</h2>
                         <h1 class="about__subtitle">who am i</h1>
-                        <div class="about__text"><p>I am 39 years old quite young one in front-end developing area, but very motivated person. I am in love in programming and eager to learn 24/7 with fire in the eyes. I have started to study HTML since september 2020 and for now I have good understanding in HTML and CSS and LESS technologies. Also I am a bit familiar with Gulp composer. Currently I am occuputed in learning JavaScript. At the same time I am working under a website for my close friend. After JavaScript I am planning to start learning React and other technologies.</p>
+                        <div class="about__text"><p>I am 39 years old quite young one in front-end developing area, but very motivated person. I am in love in programming and eager to learn 24/7 with fire in the eyes. I have started to study HTML since september 2020 and for now I have good understanding in HTML and CSS and LESS technologies. Also I am a bit familiar with Gulp composer. Currently I am occupied by learning JavaScript. At the same time I am working under a website for my close friend. After JavaScript I am planning to start learning React and other technologies.</p>
                         <p>I have a good skils in Photoshop and Illustrator as well. Also quite well known Figma as a disigner tool for website creating. </p>
                         <p>Initially I am a civil engineer with Master degree from NTNU (Trondheim, Norway) who decided to change the field. I have been working as a road engineer since 2017. However, after almost 2 years of occupancy my working contract was over and due to very low working load I have not got extencion of the contract. I have tried to find a job as en road engineer within 1.5 ears, but with no success. So I have decided to change my profession to IT area and now my hobby can become to a real job.
                         </p>
@@ -203,7 +203,7 @@
     <section class="blog">
         <div class="container">
             <div class="blog__header">
-                <h1 class="blog__main-title">read me</h1>
+                <h1 class="blog__main-title"><a id="blog">read me</a></h1>
             <h2 class="blog__main-subtitle">Here will be the future activities</h2> </div>
             <div class="blog__content">
                 <div class="blog__item">
@@ -338,64 +338,59 @@
                                 <div class="timeline__item">
                                     <div class="timeline-title">experience</div>
                                     <div class="timeline-wrap">
-                                        <div class="timeline-date">2017-<span>present</span></div>
-                                        <h3>freelancer</h3>
-                                        <h4>art director</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus. Nullam blandit aliquam ligula ut condimentum.</p>
-                                    </div>
-                                    <div class="timeline-wrap">
-                                        <div class="timeline-date">2016-2017</div>
-                                        <h3>the best agency</h3>
-                                        <h4>art director</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus. Nullam blandit aliquam ligula ut condimentum.</p>
+                                        <div class="timeline-date">2017-2019</div>
+                                        <h3>Sweco Norge AS</h3>
+                                        <h4>Midlertidig ansatt, vegplanlegger ingeniør</h4>
+                                        <p>Modellering i 3D, utforming av linjekonstruksjon, horisontal geometri, lengdeprofiler og tverrprofileri AutoCAD, detaljtegninger</p>
                                     </div>
                                     <div class="timeline-wrap">
                                         <div class="timeline-date">2014-2016</div>
-                                        <h3>better agency</h3>
-                                        <h4>senior <span class="capitalize">ui/ux</span> designer</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus. Nullam blandit aliquam ligula ut condimentum.</p>
+                                        <h3>Adressa Distribusjon AS, Trondheim</h3>
+                                        <h4>avisbud</h4>
+                                        <p>Levering av trykte produkter til kunder</p>
                                     </div>
                                     <div class="timeline-wrap">
-                                        <div class="timeline-date">2012-2014</div>
-                                        <h3>good agency</h3>
-                                        <h4><span class="capitalize">ui/ux</span> designer</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus. Nullam blandit aliquam ligula ut condimentum.</p>
+                                        <div class="timeline-date">2015 sommer</div>
+                                        <h3>XXL, Trondheim</h3>
+                                        <h4>mekaniker</h4>
+                                        <p>Arbeid og teknisk service med sportsutstyr</p>
+                                    </div>
+                                    <div class="timeline-wrap">
+                                        <div class="timeline-date">2005-2014</div>
+                                        <h3>Eget firma</h3>
+                                        <h4>Selvstending næringsdrivende</h4>
+                                        <p>Design og produksjon av hoppeslott, gummibåter og bassenger</p>
                                     </div>
                                 </div>
                                 <div class="timeline__item">
                                     <div class="timeline-title">education</div>
                                     <div class="timeline-wrap timeline-wrap--education">
-                                        <div class="timeline-date">2005-2010</div>
-                                        <h3><span class="capitalize">ui/ux</span> design</h3>
-                                    <h4><abr>la</abr> univercity, <abr>usa</abr></h4> </div>
+                                        <div class="timeline-date">2021</div>
+                                        <h3>JavaScript kurs</h3>
+                                    <h4>nettbasert</h4> </div>
                                     <div class="timeline-wrap timeline-wrap--education">
-                                        <div class="timeline-date">2002-2005</div>
-                                        <h3><span class="capitalize">ui/ux</span> design</h3>
-                                    <h4><abr>la</abr> college of art, <abr>usa</abr></h4> </div>
+                                        <div class="timeline-date">2020</div>
+                                        <h3>HTML, CSS kurs</h3>
+                                    <h4>nettbasert</h4> </div>
+                                    <div class="timeline-wrap timeline-wrap--education">
+                                        <div class="timeline-date">2016</div>
+                                        <h3>Vegplanlegging</h3>
+                                    <h4>NTNU Trondheim</h4> </div>
+                                    <div class="timeline-wrap timeline-wrap--education">
+                                        <div class="timeline-date">2014-2016</div>
+                                        <h3>Mastergrad i kjemi</h3>
+                                    <h4>NTNU Trondheim</h4> </div>
                                     <!--SKILLS-->
                                     <div class="timeline-wrap timeline-wrap--education">
                                         <h3 class="skills">skills</h3>
                                         <div class="skills__items">
-                                            <div><span class="capitalize">ui/ux</span> design</div>
+                                            <div>Sketch</div>
                                             <div>illustrator</div>
                                             <div>photoshop</div>
-                                            <div>sketch</div>
+                                            <div>figma</div>
                                         </div>
                                     </div>
-                                    <!--AWARDS-->
-                                    <div class="timeline-wrap timeline-wrap--education">
-                                        <h3 class="awards">awards</h3>
-                                        <div class="awards__wrap">
-                                            <div class="awards__title">the best app interface</div>
-                                            <div class="awards__source"><span class="capitalize">ui/ux</span> magazine</div>
-                                            <div class="awards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non</div>
-                                        </div>
-                                        <div class="awards__wrap">
-                                            <div class="awards__title">the best website</div>
-                                            <div class="awards__source"><span class="capitalize">ui/ux</span> magazine</div>
-                                            <div class="awards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non</div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="text-center">
