@@ -725,10 +725,16 @@ body.no-scroll {
 .works .work:hover {
   box-shadow: 0 0 25px rgba(43, 42, 44, 0.25);
 }
-.work__image {
+.work-container {
+  height: 207px;
+  background: #ccc;
+}
+.work-container__image {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 386px;
+  height: 100%;
+  max-height: 207px;
 }
 .work__content {
   padding: 1rem 0.8rem;
@@ -1077,6 +1083,8 @@ body.no-scroll {
 .blog .blog__content .blog__item .blog__photo {
   position: relative;
   transition: box-shadow 0.2s linear;
+  height: 207px;
+  background: #ccc;
 }
 @media (max-width: 767px) {
   .blog .blog__content .blog__item .blog__photo {
@@ -1341,8 +1349,7 @@ body.no-scroll {
   display: flex;
 }
 .modal-work__preview div img {
-  width: 711px;
-  height: 497px;
+  height: 600px;
 }
 @media (max-width: 767px) {
   .modal-work__preview div img {
@@ -1368,6 +1375,7 @@ body.no-scroll {
   width: 65%;
   position: relative;
   overflow: hidden;
+  height: 700px;
 }
 @media (max-width: 767px) {
   .modal-work__preview {
@@ -1381,11 +1389,13 @@ body.no-scroll {
   }
 }
 .modal-work__preview .modal-work__photo {
+  box-sizing: border-box;
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 1;
   transform: translate3d(-50%, -50%, 0);
+  background: #ccc;
 }
 @media (max-width: 767px) {
   .modal-work__preview .modal-work__photo {
@@ -1402,6 +1412,7 @@ body.no-scroll {
 @media (max-width: 667px) {
   .modal-work__preview .modal-work__photo {
     width: 355px;
+    height: 355px;
   }
 }
 .modal-work__content {
